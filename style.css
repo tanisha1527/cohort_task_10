@@ -11,8 +11,6 @@ body {
 }
 
 body {
-  height: 100%;
-  width: 100%;
   display: flex;
 }
 
@@ -51,4 +49,4 @@ main .div-center-bottom {
 main .div-right-bottom {
   background-image: url(https://i.pinimg.com/736x/a0/59/9e/a0599e9d68916ae227823dfb8b4530d9.jpg);
   grid-area: div-right-bottom;
-}/*# sourceMappingURL=style.css.map */
+}
