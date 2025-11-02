@@ -13,4 +13,40 @@ main {
   height: 100%;
   width: 100%;
   background-color: black;
+  padding: 30px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 0.8fr 0.6fr 0.6fr 0.6fr;
+  grid-template-rows: 1.2fr 1fr;
+  grid-template-areas: "div-left div-right-top div-right-top div-right-top" "div-left div-left-bottom div-center-bottom div-right-bottom";
+}
+
+.div-left {
+  background-color: aquamarine;
+  grid-area: div-left;
+  border-radius: 10px;
+}
+
+.div-right-top {
+  background-color: burlywood;
+  grid-area: div-right-top;
+  border-radius: 10px;
+}
+
+.div-left-bottom {
+  background-color: chartreuse;
+  grid-area: div-left-bottom;
+  border-radius: 10px;
+}
+
+.div-center-bottom {
+  background-color: coral;
+  grid-area: div-center-bottom;
+  border-radius: 10px;
+}
+
+.div-right-bottom {
+  background-color: cadetblue;
+  grid-area: div-right-bottom;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
